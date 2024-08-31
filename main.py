@@ -4,6 +4,8 @@ from config.database import collection_name
 from schemas.schema import list_serial
 from models.questions import Question
 from fastapi.openapi.docs import get_swagger_ui_html
+from pymongo import MongoClient
+
 
 app=FastAPI()
 
